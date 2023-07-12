@@ -6,7 +6,6 @@ const controleRoles = new class {
     constructor() {
         this.NumberOfWeeks = 15;
         this.members = ['Arimoto', 'Kurose', 'Inoue', 'Ishii'];
-        // this.members_jp = ['有本', '黒瀬', '井上', '石井'];
         this.roleDatas = [];
         this.createRoleData();
     }

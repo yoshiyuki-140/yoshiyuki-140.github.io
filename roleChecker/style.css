@@ -59,6 +59,15 @@ h1 {
 }
 
 /*
+メディアクエリ
+*/
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/*
 .output {
     padding: 0.5em;
     background: aliceblue;
