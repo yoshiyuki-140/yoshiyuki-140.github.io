@@ -1,0 +1,3 @@
+[submodule "apps/calcGPA"]
+	path = apps/calcGPA
+	url = https://github.com/yoshiyuki-140/calcGPA.git
