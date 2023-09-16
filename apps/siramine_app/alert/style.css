@@ -126,3 +126,20 @@ header {
   padding-bottom: 0px;
   padding-left: 4rem;
 }
+
+/* ここからスマホ版の設定 レスポンシブ対応 */
+@media (max-width: 800px) {
+  .evacuation-site {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+    height: 400px;
+  }
+
+  .box-alert-warning {
+    height: 500px;
+  }
+
+}
