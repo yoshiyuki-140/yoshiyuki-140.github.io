@@ -1,0 +1,98 @@
+* {
+    text-align: center;
+}
+
+body {
+    border: solid;
+}
+
+.header-inner {
+    background-color: #2660a1;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.driver-img {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.header-inner h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+.map {
+    position: relative;
+    /* 子要素の基準とする */
+    padding-bottom: 75%;
+    /* 表示するパディング領域の縦横比（4：3） */
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe {
+    position: absolute;
+    /* 親要素のパディング領域に配置するために絶対配置を指定 */
+    top: 0;
+    /* 垂直方向トップに配置 */
+    left: 0;
+    /*  水平方向左に配置 */
+    width: 100%;
+    /* 親コンテナの幅いっぱいに表示 */
+    height: 100%;
+    /* 親コンテナの高さいっぱいに表示 */
+}
+
+.next_dest {
+    display: inline-block;
+    /* ブロック化              */
+    font-weight: bold;
+    /* 太字                    */
+    font-size: 150%;
+    /* 文字を大きくする        */
+    color: rgba(0, 0, 0, 0.77);
+    /* 文字色                  */
+    background: #ffffff;
+    /* 背景色                  */
+    padding: 4px;
+    /* 背景色内の余白          */
+    margin: 0 2px;
+    /* 背景色のの外左右余白    */
+}
+
+.driver-img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer-inner {
+    background-color: #2660a1;
+    color: #ffffff;
+    display: block;
+    justify-content: space-between;
+}
+
+.footer-inner h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+.footer-inner small {
+    margin: 0px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .header-inner h1 {
+        font-size: 20px;
+    }
+
+    .driver-img {
+        height: 30px;
+        width: 30px;
+    }
+}
