@@ -8,10 +8,28 @@ E : end
 /* reset */
 /* S */
 * {
-    margin: 0px;
+  margin: 0px;
 }
 
 
+body {
+  height: 100vh;
+}
 
+header {
+  height: 10vh;
+  background-color: red;
+}
+
+
+main {
+  height: 80vh;
+  background-color: blue;
+}
+
+footer {
+  height: 10vh;
+  background-color: green;
+}
 
 /* E */
