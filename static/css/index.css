@@ -22,7 +22,7 @@ main>div>h1 {
   font-size: 50px;
 }
 
-.abount-me-link {
+.about-me-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,10 +40,10 @@ main>div>h1 {
   transition: all 0.5s;
 }
 
-.abount-me-link:hover {
+.about-me-link:hover {
   background-color: white;
   color: black;
-  border-color: 20px solid black;
+  border: 2px solid black;
 }
 
 /* END */
