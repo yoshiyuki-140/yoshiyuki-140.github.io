@@ -58,9 +58,70 @@ header h1 {
 
 /* E */
 
+/* タブのスタイル */
+/* S */
+.tab-items {
+  width: calc(100% / 3);
+  height: 50px;
+  border-bottom: 3px solid #5ab4bd;
+  background-color: #d9d9d9;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: #565656;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.tab-items:hover {
+  opacity: 0.75;
+}
+
+/* E */
+
+/* ラジオボタンをすべて消す */
+/* S */
+input[name="tab-item"] {
+  display: none;
+}
+
+/* E */
+
+/* タブ切り替えの中身のスタイル */
+/* S */
+.tab-content {
+  display: none;
+  padding: 40px 40px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+/* E */
+
+
+/* 選択されているタブのコンテンツのみを表示 */
+/* S */
+#all:checked~#all-content,
+#programming:checked~#programming-content,
+#design:checked~#design-content {
+  display: block;
+}
+
+/* E */
+
+/* 選択されているタブのスタイルを変える */
+/* S */
+.tabs input:checked+.tab-item {
+  background-color: #5ab4bd;
+  color: #fff;
+}
+
+/* E */
 
 /* footer */
 /* S */
-footer {}
 
 /* E */
