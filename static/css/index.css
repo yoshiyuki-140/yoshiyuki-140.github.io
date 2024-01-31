@@ -1,0 +1,54 @@
+header {
+  height: 10vh
+}
+
+/* main */
+/* START */
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main>div>h1 {
+  font-size: 50px;
+}
+
+.abount-me-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+
+  /* hover時のアニメーションを遅くする */
+  transition: all 0.5s;
+}
+
+.abount-me-link:hover {
+  background-color: white;
+  color: black;
+  border-color: 20px solid black;
+}
+
+/* END */
+
+
+footer {
+  height: 10vh
+}
