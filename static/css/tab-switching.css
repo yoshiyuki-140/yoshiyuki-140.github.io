@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* 
+coding rules:
+S : start
+E : end
+ */
+
+/* reset */
+/* S */
+* {
+  margin: 0px;
+}
+
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 10vh;
+  background-color: red;
+}
+
+
+main {
+  height: 80vh;
+  background-color: greenyellow;
+}
+
+footer {
+  height: 10vh;
+  background-color: blue;
+}
+
+/* E */
+
+/* header */
+/* S */
+header h1 {
+  font-size: 5vh;
+  text-align: center;
+}
+
+
+/* E */
+
+/* main */
+/* S */
+/*タブ切り替え全体のスタイル*/
+.tabs {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+/* E */
+
+
+/* footer */
+/* S */
+footer {}
+
+/* E */
