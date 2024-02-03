@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* header */
+/* START */
+header {
+  height: 10vh
+}
+
+/* END */
+
+/* main */
+/* START */
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* END */
+
+/* footer */
+/* START */
+footer {
+  height: 10vh
+}
+
+/* END */
