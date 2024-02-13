@@ -1,0 +1,19 @@
+header {
+  height: 10vh
+}
+
+/* main */
+/* START */
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* END */
+
+
+footer {
+  height: 10vh
+}
